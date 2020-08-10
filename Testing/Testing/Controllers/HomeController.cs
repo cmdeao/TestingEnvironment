@@ -22,7 +22,7 @@ namespace Testing.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page. HELLO WORLD! THIS IS A NEW BRANCH TEST!";
 
             return View();
         }
