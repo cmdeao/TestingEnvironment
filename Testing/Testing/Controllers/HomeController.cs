@@ -9,6 +9,8 @@ namespace Testing.Controllers
     public class HomeController : Controller
     {
         string HELLO = "HELLO WORLD!";
+
+        int testing = 1234;
         public ActionResult Index()
         {
             return View();
