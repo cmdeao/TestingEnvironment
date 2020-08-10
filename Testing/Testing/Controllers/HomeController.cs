@@ -11,6 +11,7 @@ namespace Testing.Controllers
         string HELLO = "HELLO WORLD!";
 
         int testing = 1234;
+        int finalTest = 9876;
         public ActionResult Index()
         {
             return View();
